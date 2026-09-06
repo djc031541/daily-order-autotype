@@ -1,0 +1,15 @@
+# 사내 실데이터 — 저장소에 올리지 않는다
+samples/
+output/*.docx
+*.xlsx
+*.xlsm
+
+# 환경 / 비밀
+.venv/
+.streamlit/secrets.toml
+__pycache__/
+*.pyc
+
+# 기타
+.DS_Store
+~$*.docx
